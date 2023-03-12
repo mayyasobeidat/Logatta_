@@ -97,6 +97,21 @@ nav img {
 .check{
     list-style: none;
 }
+
+
+button {
+    background-color: #f5390b;
+    color: #fff;
+
+  }
+  
+  button.clicked {
+    background-color: #28a745;
+  }
+  button.clicked {
+    background-color: #28a745; 
+  }
+
 @media only screen and (min-device-width: 0px) and (max-device-width:480px){
     .div-in-hero{
         flex-wrap: wrap;

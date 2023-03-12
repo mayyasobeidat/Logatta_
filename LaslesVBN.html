@@ -62,7 +62,8 @@
                 <div class="col-xl-6 col-lg-6 div-in-hero">
                     <h1>Want anything to be easy with LaslesVPN.</h1>
                     <p>Provide a network for all your needs with ease and fun using <b>LaslesVPN</b> discover interesting features from us.</p>
-                    <button id="myButt" class="btn Get-stated-but py-2">Get Started</button>
+                    <!-- <button id="myButt" class="btn Get-stated-but py-2">Get Started</button> -->
+                    <button type="submit" id="myButton" class="btn btn-lg btn-danger">Get Started</button>
                 </div>
                 
                 
@@ -141,16 +142,20 @@
 
 
     </div>
-    <script>
-      var button = document.getElementById("myButt");
-    
-        button.addEventListener("mouseover", function() {
-        button.style.backgroundColor = "black";
-        button.style.color = "#fff";
-      });
 
-    </script>
+    <script>
+      var button = document.getElementById("myButton");
     
+    button.addEventListener("mouseover", function() {
+      button.style.backgroundColor = "black";
+    });
+    
+    button.addEventListener("mouseout", function() {
+      button.style.backgroundColor = "#F53838";
+    });
+    
+    
+    </script>
     <!-- <script src="script.js"></script> -->    
 </body>
 </html>
