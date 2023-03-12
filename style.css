@@ -1,0 +1,145 @@
+
+body{
+    background-color: #FFFFFF;
+}
+
+.navbar{
+    background-color: #FFFFFF !important;
+
+}
+.but-signup{
+    border: #F53855 1px solid !important;
+    border-radius: 30px !important;
+    color: #F53855 !important;
+}
+
+.but-signin{
+    font-weight: bold !important;
+
+}
+
+ul li {
+    color: #4F5665;
+}
+
+nav img {
+    width: 50%;
+}
+
+.Get-stated-but{
+    color: #FFFFFF !important;
+    border-color: #F53838;
+    background-color: #F53838 !important;
+    width: 170px;
+    box-shadow: 0 6px 21px 0 rgb(245 56 56 / 35%);
+
+}
+
+.div-in-hero{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+
+}
+
+
+.information{
+    background-color: #FFECEC;
+    padding: 20px;
+    border-radius: 80%;
+    
+}
+
+.fa{
+    font-size: 20px;
+    color: #F53838;
+}
+
+.second{
+    padding: 40px !important;
+
+}
+
+.borderleft{
+    border-left: solid 2px #EEEFF2;
+    gap: 20px;
+
+
+}
+
+.bordercinter{
+    gap: 20px;
+
+}
+
+.borderright{
+    border-right: solid 2px #EEEFF2;
+    gap: 20px;
+
+}
+
+.fa-circle-check{
+    color: green;
+
+}
+
+.num{
+    font-size: 30px;
+}
+
+
+.boxshadow{
+    box-shadow: 0 19px 65px 21px #f8f9fa;
+
+}
+
+.check{
+    list-style: none;
+}
+@media only screen and (min-device-width: 0px) and (max-device-width:480px){
+    .div-in-hero{
+        flex-wrap: wrap;
+    }
+    nav img {
+        width: 100%;
+    }
+    .div-in-hero{
+        align-items: center;
+    }
+
+    .d-flex {
+        flex-direction: column !important;
+    }
+
+    .borderleft{
+        border-left: none;
+        gap: 20px;
+        border-top: solid 2px #EEEFF2; 
+    }
+    
+    .bordercinter{
+        gap: 20px;
+    
+    }
+
+  
+    
+    .borderright{
+        border-right: none;
+        gap: 20px;
+        border-bottom: solid 2px #EEEFF2;
+
+    
+    }
+
+
+    .boxshadow{
+            padding: 44px 0;
+
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width:768px){}
+
+
